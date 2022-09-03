@@ -20,7 +20,7 @@ function Header() {
                 
             </div>
 
-            <h2 className='CommName'>Movie Land</h2>
+            <h2 className='CommName'>Movie </h2>
 
             <div className="RightHeader">
                 <Button
