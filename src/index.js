@@ -10,9 +10,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BRouter>
     <Routes>
-      <Route path='/' element={<Firebase />}>
+      <Route path='/' element={<App />}>
       </Route>
-      <Route path='/admin' element={ <App /> } />
+      <Route path='/admin' element={ <Admin /> } />
     </Routes>
   </BRouter>
 );
