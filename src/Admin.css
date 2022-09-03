@@ -1,0 +1,23 @@
+.Admin{
+    display:flex;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.AdminForm{
+    border: 3px solid hotpink;
+    height:100vh;
+    width: 30vw;
+    flex:0.3;
+}
+
+.AdminPreview{
+    max-width:70vw;
+    flex:0.7;
+    background: linear-gradient(to bottom right, #cc95c0, #dbd4b4, #7aa1d2);
+    height: 100vh;
+    border: .10 px solid red;
+    overflow: hidden;
+    overflow-y: scroll;
+}

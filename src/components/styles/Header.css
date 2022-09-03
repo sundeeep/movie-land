@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.Header{
+    width: min(100% - 2rem, 100% - 2rem);
+    margin: .75rem auto 2rem auto;
+    padding-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 1rem;
+    color: antiquewhite;
+    padding: .5rem;
+
+}
+
+.LeftHeader{
+    display: flex;
+    justify-content: inherit;
+    align-items: inherit;
+}
+.CommLogo{
+    width: 4rem !important;
+    height: 4rem !important;
+    box-shadow: 0px 6px 18px -9px red !important;
+}
+
+
+.CommName{
+    font-family:'Dancing Script', cursive;
+    font-size:4rem;
+    color:#242B2E;
+    z-index: 101;
+}
+
+@media (max-width:50em) {
+    .CommName{
+        font-size:1.7rem;
+    }
+}
+
+.RightHeader{
+    display: flex;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.LogInBtn{
+    background: linear-gradient(to bottom right, #242B2E, #242B2E);
+    text-transform: inherit !important;
+    font-weight: bolder !important;
+    color:antiquewhite !important; 
+    font-size: 1.25rem !important;
+    box-shadow: 0px 6px 18px -9px red !important;
+    border-radius: 999px !important;
+    transition: transform 150ms ease-in !important;
+    padding: 0.15rem 2rem !important;
+    outline: 0 !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.LogInBtn:hover{
+    transform: scale(0.85) !important;
+}
+
+@media (max-width:50em) {
+    .LogInBtn{
+        font-size: 1rem !important;
+        padding: .15rem 1.5rem !important;
+        transition: transform 150ms ease-in !important;
+    }
+
+    .LogInBtn:hover{
+        transform: scale(1.07) !important;
+    }
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&display=swap');
+
+.FAQHeader{
+    background:#075E54;
+    color: antiquewhite;
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .5rem .5rem 0rem 0rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.FAQIcon{
+    font-size: 3rem !important;
+}
+
+.FAQHeader > h1{
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+    color: antiquewhite;
+}
+
+.FAQHeader > h1 >h1{
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+    color: antiquewhite;
+}
+
+
+.LogInBtn2{
+    background: linear-gradient(to bottom right, #ff416c, #ff4b2b);
+    text-transform: inherit !important;
+    font-weight: 700 !important;
+    color:antiquewhite !important; 
+    font-size: 1rem !important;
+    padding: .15rem 2rem !important;
+    box-shadow: 0px 6px 18px -9px red !important;
+    border-radius: 999px!important;
+    transition: transform 250ms ease-in-out !important;
+}
+
+.LogInBtn2:hover{
+    transform: scale(0.85) !important;
+}
+
+
+@media (min-width:45em) {
+    .FAQHeader >h1 >h1{
+        display: none;
+    }
+}
+@media (max-width:45em) {
+    .FAQHeader >h1 >span{
+    display: none;
+    }
+
+}

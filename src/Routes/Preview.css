@@ -1,0 +1,7 @@
+.Preview{
+    display: flex;
+    flex-direction: column;
+    flex: 0.75;
+    border-radius: 10px;
+
+}

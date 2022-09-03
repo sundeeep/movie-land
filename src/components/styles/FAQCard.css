@@ -1,0 +1,50 @@
+.FAQAnswerCard{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    margin: .75rem auto;
+}
+
+.FAQAnswer{
+    background-color: antiquewhite;
+    border-radius: 30px;
+    border-top-right-radius:0px;
+    padding: 1rem;
+    max-width: 50%;
+}
+
+@media (max-width:30em){
+    .FAQAnswer{
+        font-size: .85rem;
+    }
+}
+
+.FAQQuestionCard{
+    display: flex;
+    align-items: flex-start;
+    margin: .75rem auto;
+}
+
+.FAQQuestion{
+    background-color: antiquewhite;
+    border-radius: 30px;
+    border-top-left-radius:0px;
+    padding: 1rem;
+    max-width: 50%;
+    font-weight: bold;
+}
+
+.IconButton{
+    max-width: fit-content;
+}
+.Avatar{
+    padding:0px;
+    margin: 0px;
+}
+
+@media (max-width:30em){
+    .FAQQuestion{
+        font-size: .85rem;
+    }
+}
+

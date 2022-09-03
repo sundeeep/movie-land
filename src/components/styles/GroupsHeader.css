@@ -1,0 +1,109 @@
+.GroupsHeader{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:antiquewhite;
+    background: #242B2E;
+    border-bottom:1px solid #758283;
+    padding: .5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+
+}
+
+.LeftHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LeftHeader > h2{
+    font-size: 2rem;
+}
+
+.GroupsIcon{
+    font-size: 3rem !important;
+    margin-right: 0.3rem;
+}
+
+.GroupSearch{
+    display: flex;
+    align-items: center;
+    gap:4px;
+    background: antiquewhite;
+    padding: 0.1rem 0.75rem;
+    border-radius: 999px;
+    margin: auto 2rem;
+    flex: .5;
+}
+
+.GroupSearch>input{
+    outline: 0;
+    border: 0;
+    text-align: left;
+    padding-left: 8px;
+    background-color:antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    flex: 1;
+}
+
+.SearchIcon{
+    margin-left: -10px;
+    padding-left:2px;
+    border-left: 3px solid lightgrey;
+    color: black;
+    font-size: 1.7rem !important;
+}
+
+
+.LogInBtn2{
+    background: linear-gradient(to bottom right, #ff416c, #ff4b2b);
+    text-transform: inherit !important;
+    font-weight: 700 !important;
+    color:antiquewhite !important; 
+    font-size: 1rem !important;
+    padding: .15rem 2rem !important;
+    box-shadow: 0px 6px 18px -9px red !important;
+    border-radius: 999px!important;
+    transition: transform 250ms ease-in-out !important;
+}
+
+.LogInBtn2:hover{
+    transform: scale(0.85) !important;
+    content: "Log In" !important;
+}
+
+@media (max-width:50em) {
+
+    .GroupsHeader{
+        overflow: hidden;
+        overflow-x: scroll;
+        justify-content: space-around;
+    }
+    .GroupsIcon{
+        font-size: 1.3rem !important;
+    }
+
+    .LeftHeader > h2{
+        font-size: 1.25rem;
+    }
+    .GroupSearch{
+        flex: 0;
+        max-width: 100px;
+    }
+
+    .GroupSearch > input{
+        max-width: 70%;
+    }
+
+    .LogInBtn2{
+        padding: 0px 0px !important;
+        font-size: px !important;
+    }
+}
+
+

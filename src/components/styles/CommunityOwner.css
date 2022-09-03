@@ -1,0 +1,15 @@
+.CommunityOwner{
+    width: min(100% - 2rem, 100% - 2rem);
+    margin: 2rem auto;
+    padding-inline: .25rem;
+    height: 96vh;
+    background: antiquewhite;
+    border-radius: .5rem;
+    display: grid;
+    place-items:center;
+}
+
+.CommOwnerPic{
+    height: 300px !important;
+    width:  300px!important;
+}

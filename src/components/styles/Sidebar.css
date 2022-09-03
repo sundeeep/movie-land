@@ -1,0 +1,6 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    flex: 0.4;
+}

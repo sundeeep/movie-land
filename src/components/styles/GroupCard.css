@@ -1,0 +1,68 @@
+.GroupCard{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    background-color:#242B2E;
+    border-radius: 1rem;
+    box-shadow: 0px 6px 18px -9px red;
+    cursor: pointer;
+    transition: transform 250ms ease-in;
+    color:antiquewhite;
+}
+
+.GroupCard:hover{
+    transform: scale(1.07);
+}
+
+.GroupThumbnail{
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    opacity: 0.8;
+    border-radius: 1rem 1rem 0rem 0rem;
+    transition: 2000ms ease-in;
+}
+
+.GroupThumbnail:hover{
+    object-fit: fill;
+    opacity: 1;
+}
+
+.GroupDetails{
+    
+    border-radius: 1rem;
+    background-color: #242B2E;
+    color:antiquewhite;
+}
+
+.GroupCardInfo{
+    width: min(100% - .5rem, 100% - .5rem);
+    overflow: hidden;
+    overflow-x:scroll;
+    display: flex;
+    align-items: flex-start;
+    padding:1rem 1rem;
+    flex-direction: column;
+}
+
+
+.GroupCTA{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+.GroupCTA > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LogInBtn2:hover span{
+display: none;
+}
+
+.LogInBtn2:hover::after{
+    content: "Log In" !important;
+}
