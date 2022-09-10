@@ -7,9 +7,9 @@ function FAQHeader() {
     return (
         <div className='FAQHeader'>
             <QuizIcon className='FAQIcon'/>
-            <h1><span>Frequently Asked Question</span><h1>FAQ</h1></h1>
+            <h1><span>Frequently Asked Questions</span><h1>FAQ</h1></h1>
             <Button
-            className='LogInBtn2'>Log In</Button>
+            className='LogIn-Btn'>Log In</Button>
         </div>
     )
 }

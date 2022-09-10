@@ -1,7 +1,6 @@
 .GroupCard{
     display: flex;
     flex-direction: column;
-    max-width: fit-content;
     background-color:#242B2E;
     border-radius: 1rem;
     box-shadow: 0px 6px 18px -9px red;
@@ -9,6 +8,7 @@
     transition: transform 250ms ease-in;
     color:antiquewhite;
 }
+
 
 .GroupCard:hover{
     transform: scale(1.07);
@@ -29,8 +29,7 @@
 }
 
 .GroupDetails{
-    
-    border-radius: 1rem;
+    border-radius: 0rem 0rem 1rem 1rem;
     background-color: #242B2E;
     color:antiquewhite;
 }

@@ -1,12 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&display=swap');
+
 .Admin{
+    background: linear-gradient(to bottom right, #cc95c0, #dbd4b4, #7aa1d2);
+
+}
+
+
+.AdminHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    margin: 0 auto;
+    background-color: #cc95c0;
+}
+
+.AdminIcon{
+    font-size: 3rem !important;
+}
+
+.AdminHeader > h1{
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+.AdminBody{
     display:flex;
     flex-direction: row;
-    margin: 0 auto;
+    align-items: center;
+    margin: 2rem auto;
     height: 100vh;
+    /* background: linear-gradient(to bottom right, #cc95c0, #dbd4b4, #7aa1d2); */
 }
 
 .AdminForm{
-    border: 3px solid hotpink;
     height:100vh;
     width: 30vw;
     flex:0.3;
@@ -15,9 +44,6 @@
 .AdminPreview{
     max-width:70vw;
     flex:0.7;
-    background: linear-gradient(to bottom right, #cc95c0, #dbd4b4, #7aa1d2);
+    /* background: linear-gradient(to bottom right, #cc95c0, #dbd4b4, #7aa1d2); */
     height: 100vh;
-    border: .10 px solid red;
-    overflow: hidden;
-    overflow-y: scroll;
 }

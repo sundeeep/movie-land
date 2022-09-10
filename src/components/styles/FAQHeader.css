@@ -9,7 +9,6 @@
     justify-content: space-between;
     align-items: center;
     border-radius: .5rem .5rem 0rem 0rem;
-
     position: sticky;
     top: 0;
     z-index: 999;
@@ -33,21 +32,18 @@
 }
 
 
-.LogInBtn2{
+.LogIn-Btn{
     background: linear-gradient(to bottom right, #ff416c, #ff4b2b);
-    text-transform: inherit !important;
+    text-transform: none !important;
     font-weight: 700 !important;
     color:antiquewhite !important; 
     font-size: 1rem !important;
     padding: .15rem 2rem !important;
     box-shadow: 0px 6px 18px -9px red !important;
     border-radius: 999px!important;
-    transition: transform 250ms ease-in-out !important;
 }
 
-.LogInBtn2:hover{
-    transform: scale(0.85) !important;
-}
+
 
 
 @media (min-width:45em) {

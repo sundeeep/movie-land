@@ -6,20 +6,19 @@ function FAQCard({faq, ans}){
     return (
         <div className="FAQCard">
             <div className="FAQQuestionCard">
-            <IconButton className="IconButton">
-                <Avatar className="Avatar" />
-            </IconButton>
-
+                <IconButton className="IconButton">
+                    <Avatar className="Avatar" />
+                </IconButton>
                 <p className="FAQQuestion">{faq}</p>
             </div>
 
             <div className="FAQAnswerCard">
-            <IconButton>
-                <Avatar
-                className="Avatar"
-                src="https://avatars.githubusercontent.com/u/67505311?v=4"
-                />
-            </IconButton>
+                <IconButton>
+                    <Avatar
+                    className="Avatar"
+                    src="https://avatars.githubusercontent.com/u/67505311?v=4"
+                    />
+                </IconButton>
 
                 <p className="FAQAnswer">{ans}</p>
             </div>

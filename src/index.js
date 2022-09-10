@@ -4,14 +4,15 @@ import {Routes, Route, BrowserRouter as BRouter} from 'react-router-dom'
 import './index.css';
 import App from './App';
 import Admin from './Admin'
+import FAQUpdater from './pages/FAQUpdater';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BRouter>
     <Routes>
-      <Route path='/' element={<App />}>
+      <Route path='/home' element={<App />} />
+      <Route path='/' element={<Admin />}>
       </Route>
-      <Route path='/admin' element={ <Admin /> } />
     </Routes>
   </BRouter>
 );

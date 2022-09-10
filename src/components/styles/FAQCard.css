@@ -1,50 +1,58 @@
-.FAQAnswerCard{
+.FAQCard{
     display: flex;
-    align-items: flex-start;
-    flex-direction: row-reverse;
-    margin: .75rem auto;
-}
-
-.FAQAnswer{
-    background-color: antiquewhite;
-    border-radius: 30px;
-    border-top-right-radius:0px;
-    padding: 1rem;
-    max-width: 50%;
-}
-
-@media (max-width:30em){
-    .FAQAnswer{
-        font-size: .85rem;
-    }
+    flex-direction: column;
+    max-width: 100%;
+    margin: .5rem;
 }
 
 .FAQQuestionCard{
+    align-self: flex-start;
     display: flex;
-    align-items: flex-start;
-    margin: .75rem auto;
+    flex-direction: row;
+    width: min(50%, 50%);
+    margin: .7rem;
+    
 }
 
-.FAQQuestion{
-    background-color: antiquewhite;
-    border-radius: 30px;
-    border-top-left-radius:0px;
-    padding: 1rem;
-    max-width: 50%;
-    font-weight: bold;
+.FAQAnswerCard{
+    align-self: flex-end;
+    display: flex;
+    width: min(50%, 50%);
+    flex-direction: row-reverse;
 }
 
-.IconButton{
+.FAQAnswer, .FAQQuestion{
+    background-color: rgba(0,0,0, .5);
+    color: antiquewhite;
+    padding: .5rem;
+    flex: 1;
+    font-size: 1rem;
+    border-radius: 1rem 0rem 1rem 1rem;
     max-width: fit-content;
 }
-.Avatar{
-    padding:0px;
-    margin: 0px;
-}
 
-@media (max-width:30em){
-    .FAQQuestion{
-        font-size: .85rem;
+@supports ( -webkit-backfrop-filter: none) or (backdrop-filter: none){
+    .FAQAnswer, .FAQQuestion{
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
     }
 }
 
+
+.Avatar{
+}
+
+
+
+.FAQQuestion{
+    font-weight: 700;
+    border-radius: 0rem 1rem 1rem 1rem;
+
+}
+
+
+@media (max-width: 60em){
+    .FAQQuestionCard, .FAQAnswerCard{
+        width:min(70%, 70%);
+    }
+}
